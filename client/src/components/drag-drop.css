@@ -1,0 +1,124 @@
+.drop-file-input {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    padding: 10%;
+    border: 2px dashed #BBC2FA;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 250, 250);
+
+}
+
+.drop-file-input input {
+    opacity: 0;
+    position: absolute;
+    align-items: center;
+    border: 10px solid white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.drop-file-input:hover,
+.drop-file-input.dragover {
+    opacity: 0.6;
+    align-items: center;
+}
+
+.drop-file-input__label {
+    text-align: center;
+    color: #BBC2FA;
+    font-weight: 700;
+    align-items: center;
+    padding: 10px;
+}
+
+.drop-file-input__label img {
+    width: 105px;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.drop-file-preview {
+    margin-top: 30px;
+    align-items: center;
+}
+
+.drop-file-preview p {
+    font-weight: 500;
+    align-items: center;
+}
+
+.drop-file-preview__title {
+    margin-bottom: 20px;
+    align-items: center;
+    font-weight: 1000;
+    font-size: 20px;
+    color: #000000;
+}
+
+.drop-file-preview__item {
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.drop-file-preview__item img {
+    width: 65px;
+    align-items: center;
+}
+
+.drop-file-preview__item__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drop-file-preview__item__del {
+    background-color: var(--box-bg);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.drop-file-preview__item:hover .drop-file-preview__item__del {
+    opacity: 1;
+    align-items: center;
+}
+
+.applicants{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 5pt;
+    text-align: center;
+    letter-spacing: 2pt;
+    color: rgb(138, 138, 243);
+    font-family: 'Inter', sans-serif;
+}
