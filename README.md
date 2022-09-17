@@ -91,7 +91,7 @@
 
   - Display Resumes on Admin Console (Tanvi, Nafis)
   - Implement Search Features (Tanvi, Jessica)
-  - (maybe add a dashboard/table--Nafis/anyone else)
+  - Dashboard, Tables, Graphs (Tanvi, Jessica)
   
   Saturday:
   - Change frontend to Diana's Design (Saturday)
